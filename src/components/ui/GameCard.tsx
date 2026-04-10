@@ -73,34 +73,6 @@ export default function GameCard({ game }: GameCardProps) {
           )}
         </div>
 
-        {/* Status badge */}
-        <div className="absolute top-3 left-3 z-10">
-          <span
-            className="text-xs font-bold font-mono px-2 py-1 tracking-wider"
-            style={{
-              background: status.bg,
-              border: `1px solid ${status.border}`,
-              color: status.color,
-              textShadow: `0 0 8px ${status.color}80`,
-            }}
-          >
-            {status.label}
-          </span>
-        </div>
-
-        {/* Year */}
-        <div className="absolute top-3 right-3 z-10">
-          <span
-            className="text-xs font-mono px-2 py-1"
-            style={{
-              background: "rgba(0,0,0,0.8)",
-              border: "1px solid rgba(0,212,255,0.2)",
-              color: "#304060",
-            }}
-          >
-            {game.year}
-          </span>
-        </div>
       </div>
 
       <div className="p-5">

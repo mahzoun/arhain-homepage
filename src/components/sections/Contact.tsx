@@ -15,7 +15,7 @@ export default function Contact() {
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/arhain",
+      value: "github.com/arhain95",
       href: siteConfig.social.github,
       color: "#e8f4ff",
     },

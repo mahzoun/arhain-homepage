@@ -8,8 +8,8 @@ export const siteConfig = {
   url: "https://arhain.mahzoun.me",
   email: "mohadeseh.mzn@gmail.com",
   social: {
-    github: "https://github.com/arhain",
-    linkedin: "https://linkedin.com/in/mohaddeseh-mahzoun",
+    github: "https://github.com/arhain95",
+    linkedin: "https://www.linkedin.com/in/mohaddesehmahzoun/",
     itch: "https://arhain.itch.io",
   },
   cvUrl: "/cv-mohaddeseh-mahzoun.pdf",
